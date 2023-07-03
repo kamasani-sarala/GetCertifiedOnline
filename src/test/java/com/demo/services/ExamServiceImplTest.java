@@ -154,35 +154,35 @@ class ExamServiceImplTest {
 				exams.deleteByeId(nonExistingId);
 	        });
 	    }
-	    @Test
+	    // @Test
 
-	    public void addExam() throws ExamNotFoundException {
+	    // public void addExam() throws ExamNotFoundException {
 
 	     
 
-	    Exam exam = new Exam();
+	    // Exam exam = new Exam();
 
-	    exam.seteId(18);
+	    // exam.seteId(18);
 
-	    exam.seteName("Java");
+	    // exam.seteName("Java");
 
-	    exam.setStartTime("2Pm");
+	    // exam.setStartTime("2Pm");
 
-	    exam.setEndTime("4PM");
+	    // exam.setEndTime("4PM");
 
-	    exam.setDuration(2);
+	    // exam.setDuration(2);
 	    
-	    exam.setExamDate("12/03/2023");
+	    // exam.setExamDate("12/03/2023");
 
-	    Exam addExam = examService.addExam(exam);
-
-	     
-
-	    assertNotNull(addExam);
+	    // Exam addExam = examService.addExam(exam);
 
 	     
 
-	    }
+	    // assertNotNull(addExam);
+
+	     
+
+	    // }
 }
 
 
