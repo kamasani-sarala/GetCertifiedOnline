@@ -54,6 +54,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+    <repository>
+        <id>my-repository</id>
+        <name>ExamRepository</name>
+        <url>https://com.demo.repository/repository</url>
+    </repository>
+</distributionManagement>
+
 
 	<build>
 		<plugins>
