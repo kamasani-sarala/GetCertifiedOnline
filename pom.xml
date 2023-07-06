@@ -56,7 +56,7 @@
 	</dependencies>
 	<distributionManagement>
     <repository>
-        <id>my-repository</id>
+        <id>spring-boot-starter-parent</id>
         <name>ExamRepository</name>
         <url>https://com.demo.repository/repository</url>
     </repository>
